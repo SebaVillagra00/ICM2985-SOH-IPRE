@@ -6,7 +6,7 @@ Investigación de pregrado: Estado del arte de SOH de baterías de ion litio.
 * Fecha investigación: 2024-1
 
 ## Data University of Cambridge (EIS Cambridge)
-Data publicada en "Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning" (Zhang, Tang, Zhang, Wang, Stimming & Lee, 2020) https://www.nature.com/articles/s41467-020-15235-7.
+Data publicada en "Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning" (Zhang, Tang, Zhang, Wang, Stimming & Lee, 2020) https://www.nature.com/articles/s41467-020-15235-7. Acceso original a los datos: https://zenodo.org/records/3633835.
 
 ### Contenidos de la carpeta:
 Los archivos contenidos son:
