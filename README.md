@@ -5,6 +5,34 @@ Investigación de pregrado: Estado del arte de SOH de baterías de ion litio.
 * Alumno: Sebastian Villagra
 * Fecha investigación: 2024-1
 
+
+-----------------------------------------------------
+
+# Organización de carpetas
+
+## Lectura de datos en CSV 
+Dentro de las carpetas "Capacity data" y "EIS data" se encuentran los datos de capacidad y de EIS en sus archivos originales. Además, en cada carpeta se encuentran los archivos "txt2csvEIS" y "txt2csvCAP" respectivamente. Estos archivos contienen el código en Python que permite crear archivos de lectura CSV.
+
+## Carpetas con archivos CSV
+Se han creado 2 carpetas que contienen todos los archivos originales con su debido equivalente en un archivo CSV para su pronta lectura en Python u otro lenguaje de programación.
+
+## VisualizacionDatos-CurvasNyquist
+Dentro de esta carpeta se pueden encontrar 3 archivos con código en formato *notebook*:
+* EIS-Visualizacion-I
+* EIS-Visualizacion-II
+* Ajuste-Curvas
+
+El primero muestra un primer análisis visual de las curvas de cada archivo. Este explica además en forma más detallada como se conforma cada DataFrame asociado a su archivo CSV.
+Luego, el segundo *notebook* mostrará un enfoque en una única curva de Nyquist, es decir, enfocada en un único ciclo. Por último, el tercer *notebook* introduce una simple propuesta para seleccionar las muestras necesarias para ajustar la mejor circunferencia a la primera curvatura. Este último *notebook* presenta también el código para resolver el problema de optimización de mínimos cuadrados para ajustar la circunferencia al diagrama de Nyquist.
+
+## Implementacion-GPR
+
+En esta carpeta se incluye la implementación del modelo de *Gaussian Process*. Para ello se hace en primer lugar un pequeño análisis de los archivos de capacidades de las baterías, así como un simple análisis visual respecto a las circunferencias ajustadas en cada ciclo.
+
+
+-----------------------------------------------------
+# Información relevante 
+
 ## Data University of Cambridge (EIS Cambridge)
 Data publicada en "Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning" (Zhang, Tang, Zhang, Wang, Stimming & Lee, 2020) https://www.nature.com/articles/s41467-020-15235-7. Acceso original a los datos: https://zenodo.org/records/3633835.
 
